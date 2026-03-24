@@ -1,6 +1,9 @@
 #include <iostream>
 
 int main() {
-  std::cout << "Hello, World! \n";
+  int num;
+  std::cout << "Please enter an integer: ";
+  std::cin >> num;
+  std::cout << "The number entered is " << num << std::endl;
   return 0;
 }
